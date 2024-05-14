@@ -1,0 +1,21 @@
+.adressheading{
+    background-color:#9155fd;
+    color:white;
+    border:none;
+    outline:none;
+    padding:10px 20px;
+    /* margin-top:-10px; */
+    
+}
+.adressheading h2{
+    color:white; 
+    font-weight: 500;
+    margin-left:14px;
+    text-align: justify;
+    font-size: 30px;
+    word-spacing: 3px;
+    text-transform: capitalize;;
+}
+.submit-btn :hover{
+    background-color: #9155fd!important;
+}

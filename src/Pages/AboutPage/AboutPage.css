@@ -1,0 +1,15 @@
+.company-info,.services-content{
+  text-align: justify;
+}
+
+.services-icon{
+  font-size: 1.4rem !important;
+  color: blueviolet;
+
+}
+
+/* .teamimg{
+  height: 800px !important;
+  width:640px !important;
+
+} */

@@ -1,0 +1,220 @@
+
+
+.product-detailsheading{
+    color: #282c3f;
+    font-size: 16px;
+    margin-top:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.product-detailsdesc{
+    color: #282c3f;
+    line-height: 25.2px;
+    font-size: 16px;
+
+   
+    margin-top: 12px;
+    width: 80%;}
+
+
+.productdescription .product-detailsdesc{
+    color: #282c3f;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-top: 12px;
+    width: 90%;
+    
+}
+.heading-products{
+    color: #282c3f;
+    padding: 0 20px 0 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.product-subheading{
+    color: #535665;
+    padding: 25px 20px 14px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    opacity: .8;
+    font-weight: 400;
+}
+
+
+.addtocartbtn{
+    /* sx={{px:"2rem",py:"1rem",bgcolor:"#9155fd",left:"0rem"  }}>Add to cart</Button> */
+  background-color: #9155fd;
+    margin-top: 15%;
+    padding: 95px 10px;
+}
+/* text-lg font-semibold text-gray-900 opacity-60 pt-1 */
+
+
+
+/* text for offers */
+.pdp-offers-container {
+    margin: 40px 0 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #d4d5d9;
+}
+.main-cta{
+    display: none;
+}
+
+
+.pdp-offers-container>h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+
+.pdp-offers-offerTitle b {
+    color: #282c3f;
+    display: inline-block;
+}
+.pdp-offers-price {
+    color: #ff905a;
+    font-weight: 700;
+}
+
+.pdp-offers-offerDesc {
+    font-size: 16px;
+    color: #282c3f;
+    padding: 0;
+    margin: 8px 0 0;
+    list-style: none;
+    width: 100%;
+}
+div.pdp-offers-bullet {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #282c3f;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pdp-offers-offerDesc li {
+    margin-bottom: 6px;
+}
+.pdp-offers-linkButton {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff3f6c;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.pdp-offers-offerTitle b {
+    color: #282c3f;
+    display: inline-block;
+}
+.pdp-offers-offerDesc li .pdp-offers-labelMarkup {
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+}
+
+
+
+.meta-container {
+    margin: 20px 0 0;
+}
+
+.meta-info .meta-desc {
+    margin: 5px 0;
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+.meta-info {
+    color: #282c3f;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.pdp-vatInfo {
+    color: #03a685;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    margin: 5px 10px 0 0;
+}
+.pdp-selling-price {
+    font-size: 16px;  position: relative;
+    margin: 0 0 10px;
+}
+
+  
+
+
+.pdp-discount-container {
+    color: #696e79;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.pdp-price {
+    color: #282c3f;
+    margin-right: 12px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+        cursor: pointer;
+    
+}
+
+.pdp-price strong {
+    color: #282c3f;
+    font-weight: 700;
+}
+
+
+.pdp-mrp {
+    height: 22px;
+    opacity: .8;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #282c3f;
+    margin-right: 12px
+}
+
+.pdp-mrp-verbiage {
+    min-width: 270px;
+    position: absolute;
+    border: 1px solid #e3e3e3;
+    z-index: 1;
+    background: #fff;
+    padding: 8px;
+    /* -webkit-box-shadow: 0 0 12px #d3d3d3; */
+    box-shadow: 0 0 12px #d3d3d3;
+    /* -webkit-transition: .2s; */
+    transition: .2s;
+    opacity: 0;
+    /* -webkit-transform: scale(.001); */
+    transform: scale(.001);
+    color: #282c3f;
+    font-size: 14px;
+}
+
+.pdp-discount {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #ff905a;
+}

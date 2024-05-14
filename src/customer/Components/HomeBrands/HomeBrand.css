@@ -1,0 +1,42 @@
+.categories {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 45px;
+    cursor: pointer;
+  }
+    
+  .categories .image-container {
+    margin-top: 10px;
+    width: 225px;
+    height: auto;
+    transition: all 0.2s ease-in;
+  }
+    
+    .categories img {
+      width: 100%;
+  
+      transition: all 0.2s ease-in-out;
+    }
+    
+    
+    .categories .image-container:hover {
+      filter: brightness(0.85);
+    }
+    
+    .categories .title {
+      text-align: center;
+      margin-top: 8px;
+      font-size: 14px;
+      color: #222;
+    }
+    
+    @media screen and (max-width: 992px) {
+      .image-container {
+        margin-top: 20px;
+      }
+    }

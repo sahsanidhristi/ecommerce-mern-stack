@@ -218,3 +218,14 @@ div.pdp-offers-bullet {
     letter-spacing: .5px;
     color: #ff905a;
 }
+.addtocart-btn,.payment-btn,.checkout-btn,.Remove-btn{
+    background-color: #9155fd !important;
+    border-radius:20px !important;
+}
+.add-icon{
+    color:#9155fd !important;
+}
+.pagination{
+    color:#12A8E0 !important;
+    
+} 

@@ -58,7 +58,8 @@ export default function AddDeliveryAddressForm({ handleNext }) {
                   sx={{ mt: 2 }}
                   size="large"
                   variant="contained"
-                  color="primary"
+              
+                  className="use-this-address-btn"
                   onClick={()=>handleCreateOrder(item)}
                 >
                 use this address
@@ -155,7 +156,8 @@ export default function AddDeliveryAddressForm({ handleNext }) {
                   size="large"
                   type="submit"
                   variant="contained"
-                  color="primary"
+                  className="checkout-step2-btn"
+     
                 >SUBMIT
                 </Button>
               </Grid>

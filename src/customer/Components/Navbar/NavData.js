@@ -117,8 +117,8 @@ export const navigations = {
         ],
       },
     ],
-    pages: [
-      { name: 'Company', id: '/' },
-      { name: 'Stores', id: '/' },
-    ],
+    // pages: [
+    //   { name: 'Company', id: '/' },
+    //   { name: 'Stores', id: '/' },
+    // ],
   }

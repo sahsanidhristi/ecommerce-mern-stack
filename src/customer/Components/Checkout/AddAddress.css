@@ -19,3 +19,7 @@
 .submit-btn :hover{
     background-color: #9155fd!important;
 }
+.checkout-step2-btn,.use-this-address-btn{
+    background-color: #9155fd!important;
+    border-radius: 20px!important;
+}

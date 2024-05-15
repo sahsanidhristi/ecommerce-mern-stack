@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getOrderById } from "../../../Redux/Customers/Order/Action";
 import AddressCard from "../adreess/AdreessCard";
 import { createPayment } from "../../../Redux/Customers/Payment/Action";
-
+import "../Product/ProductDetails/ProductDetails.css";
 const OrderSummary = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -32,7 +32,7 @@ const handleCreatePayment=()=>{
 
   return (
     <div className="space-y-5">
-        <div className="p-5 shadow-lg rounded-md border ">
+        <div className="p-5  border ">
             <AddressCard address={order.order?.shippingAddress}/>
         </div>
       <div className="lg:grid grid-cols-3 relative justify-between">
@@ -46,7 +46,7 @@ const handleCreatePayment=()=>{
           </div>
         </div>
         <div className="sticky top-0 h-[100vh] mt-5 lg:mt-0 ml-5">
-          <div className="border p-5 bg-white shadow-lg rounded-md">
+          <div className="border p-5 bg-white ">
             <p className="font-bold opacity-60 pb-4">PRICE DETAILS</p>
             <hr />
 
@@ -70,7 +70,7 @@ const handleCreatePayment=()=>{
               </div>
             </div>
 
-            <Button
+            <Button className="payment-btn"
               onClick={handleCreatePayment}
               variant="contained"
               type="submit"

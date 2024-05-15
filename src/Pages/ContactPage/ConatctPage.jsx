@@ -37,10 +37,10 @@ export default function ConatctPage() {
      </div> */}
       <div className="contact">
         <div className="contact-col">
-          <h3>
+          <h3 className="Contact-us-heading">
             send us message <img src={msg_icon} alt="" />
           </h3>
-          <p>
+          <p className="contact-content">
             Welcome to the contact hub of Shop_x ! We
             believe in providing exceptional service and building strong
             relationships with our valued customers. Your satisfaction is our

@@ -7,6 +7,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import "./Navigation.css";
+import "./Navigation.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 import { navigation } from "../../../config/navigationMenu";
@@ -452,9 +453,9 @@ export default function Navigation() {
                       </Menu>
                     </div>
                   ) : (
-                    <Button
+                    <Button variant="contained"
                       onClick={handleOpen}
-                      className="text-sm font-medium text-gray-700 hover:text-gray-800"
+                      className="sign-in-button"
                     >
                       Signin
                     </Button>

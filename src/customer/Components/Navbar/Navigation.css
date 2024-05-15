@@ -8,3 +8,8 @@
 .company-stores{
     display:none;
 } */
+
+.sign-in-button{
+    background-color: #9155fd important;
+    border-radius:20px !important;
+}

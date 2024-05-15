@@ -5,7 +5,7 @@ import { removeCartItem, updateCartItem } from "../../../Redux/Customers/Cart/Ac
 import { IconButton } from "@mui/material";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
-
+import "../Product/ProductDetails/ProductDetails.css"
 const CartItem = ({ item,showButton }) => {
   const dispatch = useDispatch();
   const jwt = localStorage.getItem("jwt");
@@ -20,7 +20,7 @@ const CartItem = ({ item,showButton }) => {
     dispatch(updateCartItem(data))
   }
   return (
-    <div className="p-5 shadow-lg border rounded-md">
+    <div className="p-5 border ">
       <div className="flex items-center">
         <div className="w-[5rem] h-[5rem] lg:w-[9rem] lg:h-[9rem] ">
           <img
@@ -46,18 +46,18 @@ const CartItem = ({ item,showButton }) => {
       </div>
      {showButton&& <div className="lg:flex items-center lg:space-x-10 pt-4">
         <div className="flex items-center space-x-2 ">
-          <IconButton onClick={()=>handleUpdateCartItem(-1)} disabled={item?.quantity<=1} color="primary" aria-label="add an alarm">
+          <IconButton onClick={()=>handleUpdateCartItem(-1)} disabled={item?.quantity<=1}  aria-label="add an alarm" className="remove-icon">
             <RemoveCircleOutlineIcon />
           </IconButton>
 
-          <span className="py-1 px-7 border rounded-sm">{item?.quantity}</span>
-          <IconButton onClick={()=>handleUpdateCartItem(1)} color="primary" aria-label="add an alarm">
+          <span className="py-1 px-7 border">{item?.quantity}</span>
+          <IconButton onClick={()=>handleUpdateCartItem(1)}  aria-label="add an alarm" className="add-icon">
             <AddCircleOutlineIcon />
           </IconButton>
         </div>
         <div className="flex text-sm lg:text-base mt-5 lg:mt-0">
           
-          <Button onClick={handleRemoveItemFromCart} variant="text">
+          <Button onClick={handleRemoveItemFromCart} variant="contained" className="Remove-btn" >
             Remove{" "}
           </Button>
           

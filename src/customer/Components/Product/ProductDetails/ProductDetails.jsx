@@ -193,7 +193,7 @@ export default function ProductDetails() {
               </div>
               <p class="pdp-selling-price"><span class="pdp-vatInfo">inclusive of all taxes</span></p>
               {/* Reviews */}
-              <div className="mt-6">
+              {/* <div className="mt-6">
                 <h3 className="sr-only">Reviews</h3>
 
                 <div className="flex items-center space-x-3">
@@ -209,7 +209,7 @@ export default function ProductDetails() {
                     {reviews.totalCount} reviews
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <form className="mt-10" onSubmit={handleSubmit}>
                 {/* Sizes */}
@@ -235,10 +235,10 @@ export default function ProductDetails() {
                           className={({ active }) =>
                             classNames(
                               size.inStock
-                                ? "cursor-pointer bg-white text-gray-900 shadow-sm"
+                                ? "cursor-pointer bg-white text-gray-900 "
                                 : "cursor-not-allowed bg-gray-50 text-gray-200",
                               active ? "ring-1 ring-indigo-500" : "",
-                              "group relative flex items-center justify-center rounded-md border py-1 px-1 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6"
+                              "group relative flex items-center justify-center rounded-md border py-1 px-6 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6"
                             )
                           }
                         >
@@ -287,12 +287,7 @@ export default function ProductDetails() {
                   </RadioGroup>
                 </div>
 
-                <Button
-                  variant="contained"
-       
-                  type="submit"
-                  sx={{ padding: ".8rem 2rem", marginTop: "2rem" }}
-                >
+                <Button className="addtocart-btn" variant="contained"type="submit" sx={{ padding: ".8rem 5rem", marginTop: "2rem" }}>
                   Add To Cart
                 </Button>
              

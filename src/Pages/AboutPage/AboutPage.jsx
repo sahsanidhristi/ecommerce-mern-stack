@@ -1,5 +1,5 @@
 import React from "react";
-import newteam_6 from "../../images/newtem6.jpg"
+import newteam_6 from "../../images/newtem6.jpg";
 import "./AboutPage.css";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
@@ -7,6 +7,7 @@ import HeadphonesIcon from "@mui/icons-material/Headphones";
 import LockIcon from "@mui/icons-material/Lock";
 import RecyclingIcon from "@mui/icons-material/Recycling";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import LanguageIcon from "@mui/icons-material/Language";
 import image_6 from "../../images/pic-6.jpeg";
 import workimg_7 from "../../images/workimg7.jpeg";
 import workcult from "../../images/workplace.jpeg";
@@ -34,10 +35,10 @@ export default function AboutPage() {
     <>
       <div className="max-w-[1320px] mx-auto flex md: py-[80] py-5  md:flex-row sm:flex-col flex-col">
         <div className="basis-[50%] px-5">
-          <img src={company} className="w-[full] h-[35rem]" />
+          <img src={company} className="w-[full] h-[36rem]" />
         </div>
         <div className="basis-[50%] px-5">
-          <h1 className="text-3xl pb-5 ">Who We Are</h1>
+          <h1 className="about-heading">Who We Are</h1>
           <p className="py-4 company-info w-[555px]">
             Established in 2015, ShopX is a leading online destination for
             fashion-forward individuals seeking trendy and affordable apparel.
@@ -68,14 +69,16 @@ export default function AboutPage() {
       </div>
 
       <div className="max-w-[1320px] md:py-[80] py-5 mx-auto">
-        <h1 className="text-4xl text-center ">Our Services</h1>
+        <h1 className="about-heading text-center ">Our Services</h1>
       </div>
 
       <div className="max-w-[1200px] mx-auto py-[50px] grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
             <LocalShippingIcon className="services-icon mt-2" />
-            <h3 className="text-xl text-center py-2">Free Delivery</h3>
+            <h3 className="text-xl text-center py-2 service-heading">
+              Free Delivery
+            </h3>
           </div>
           <p className="services-content">
             Enjoy the convenience of free delivery on all orders! ShopX is
@@ -89,7 +92,9 @@ export default function AboutPage() {
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
             <LockIcon className="services-icon mt-2" />
-            <h3 className="text-xl text-center py-2">Secure Payments</h3>
+            <h3 className="text-xl text-center py-2 service-heading">
+              Secure Payments
+            </h3>
           </div>
           <p className="services-content">
             At ShopX, we prioritize the security of your transactions. Rest
@@ -103,7 +108,9 @@ export default function AboutPage() {
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
             <LocalOfferIcon className="services-icon mt-2" />
-            <h3 className="text-xl text-center py-2">Amazing offers</h3>
+            <h3 className="text-xl text-center py-2 service-heading">
+              Amazing offers
+            </h3>
           </div>
           <p className="services-content">
             Discover amazing offers at ShopX! From exclusive discounts to
@@ -117,7 +124,9 @@ export default function AboutPage() {
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
             <HeadphonesIcon className="services-icon mt-2" />
-            <h3 className="text-xl text-center py-2">24/7 Support</h3>
+            <h3 className="text-xl text-center py-2 service-heading">
+              24/7 Support
+            </h3>
           </div>
           <p className="services-content">
             At ShopX, we understand that questions can arise anytime, which is
@@ -131,7 +140,7 @@ export default function AboutPage() {
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
             <RecyclingIcon className="services-icon mt-2" />
-            <h3 className="text-xl text-center py-2">
+            <h3 className="text-xl text-center py-2 service-heading">
               Recycle of plastic items
             </h3>
           </div>
@@ -146,25 +155,27 @@ export default function AboutPage() {
         </div>
         <div className="shadow-lg p-4 border">
           <div className="flex md:flex-row  mt-2 gap-10">
-            <LocalShippingIcon
+            <LanguageIcon
               className="services-icon mt-2"
               sx={{ fontSize: "20px" }}
             />
-            <h3 className="text-xl text-center py-2">Free Delivery</h3>
+            <h3 className="text-xl text-center py-2 service-heading">
+              {" "}
+              NationWide Delivery{" "}
+            </h3>
           </div>
           <p className="services-content">
-            Enjoy the convenience of free delivery on all orders! ShopX is
-            committed to providing an exceptional shopping experience, which
-            includes fast and free shipping straight to your doorstep. No
-            minimum purchase required. Simply select your favorite items,
-            proceed to checkout, and let us handle the rest. Shop now and
-            indulge in hassle-free shopping with ShopX.
+            Experience the convenience of shopping from anywhere in India with
+            Shop X's nationwide delivery service. Our extensive delivery network
+            ensures your favorite apparel reaches you in perfect condition and
+            on time, no matter where you are located. Enjoy a seamless shopping
+            experience with us today. Shop with confidence and let us bring fashion right to your doorstep.!.
           </p>
         </div>
       </div>
 
       <div className="max-w-[1320px] md:py-[80] py-5 mx-auto">
-        <h1 className="text-4xl text-center ">Our Team</h1>
+        <h1 className="about-heading text-center ">Our Team</h1>
       </div>
 
       <div className="max-w-[1200px] mx-auto py-[50px] grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
@@ -173,7 +184,7 @@ export default function AboutPage() {
 
           <div className="absolute bg-black top-0 left-0 w-full h-full flex items-center justify-center  -translate-x-full group-hover:translate-x-0 duration-300">
             <div className="text-center m-2">
-              <h3 className="text-white text-2xl font-bold mb-2">
+              <h3 className="text-white text-2xl font-bold mb-2 ">
                 Sakshi Malhotra
               </h3>
               <h4 className="text-white text-xl font-normal mb-2">
@@ -334,10 +345,10 @@ export default function AboutPage() {
           <div className="absolute bg-black top-0 left-0 w-full h-full flex items-center justify-center  -translate-x-full group-hover:translate-x-0 duration-300">
             <div className="text-center m-2">
               <h3 className="text-white text-2xl font-bold mb-2">
-             Natasha Kanjani
+                Natasha Kanjani
               </h3>
               <h4 className="text-white text-xl font-normal mb-2">
-             Frontend Developer
+                Frontend Developer
               </h4>
               <ul>
                 <li className="inline-block mx-3">
@@ -363,7 +374,7 @@ export default function AboutPage() {
       </div>
 
       <div className="max-w-[1320px] md:py-[80]  mx-auto">
-        <h1 className="text-4xl text-center ">FAQ Section</h1>
+        <h1 className="about-heading text-center ">FAQ Section</h1>
       </div>
       <div className="max-w-[1200px] mx-auto py-[50px] ">
         <ul class="max-w-[1200px] mx-auto  divide-y   rounded-xl p-3">
@@ -383,11 +394,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>How do I place an order?</span>
+                <span className="faq-question">How do I place an order?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   To place an order, simply browse our website and add your
                   desired items to the shopping cart. Proceed to checkout, where
                   you'll be prompted to enter your shipping and payment details.
@@ -413,15 +424,15 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>
-                What is your return policy?
-                  
-                </span>
+                <span className="faq-question">What is your return policy?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
-                We offer a hassle-free return policy. If you're not completely satisfied with your purchase, you can return it within 5-6 days for a full refund or exchange. Please refer to our 'Returns & Exchanges' page for detailed instructions.
+                <p className="faq-content">
+                  We offer a hassle-free return policy. If you're not completely
+                  satisfied with your purchase, you can return it within 5-6
+                  days for a full refund or exchange. Please refer to our
+                  'Returns & Exchanges' page for detailed instructions.
                 </p>
               </article>
             </details>
@@ -442,11 +453,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>What payment methods do you accept?</span>
+                <span className="faq-question">What payment methods do you accept?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   We accept payments via credit/debit card, Razorpay, and other
                   secure online payment methods. Rest assured, your payment
                   information is encrypted and securely processed.
@@ -470,11 +481,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>Do you offer gift wrapping services?</span>
+                <span className="faq-question">Do you offer gift wrapping services?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   No, currently we do not offer gift wrapping services. However,
                   we're constantly updating our services, so please stay tuned
                   for any future additions or changes..
@@ -498,11 +509,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>How can I contact customer support?</span>
+                <span className="faq-question">How can I contact customer support?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   You can reach our customer support team via email at
                   support@email.com or by filling out the contact form on our
                   website. We strive to respond to all inquiries within
@@ -528,11 +539,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>What if my item is damaged or defective?</span>
+                <span className="faq-question">What if my item is damaged or defective?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   We take pride in the quality of our products. In the rare
                   event that your item arrives damaged or defective, please
                   contact our customer service team within days of receiving.
@@ -556,11 +567,11 @@ export default function AboutPage() {
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>Do you offer international shipping?</span>
+                <span className="faq-question">Do you offer international shipping?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>
+                <p className="faq-content">
                   No, at the moment we do not offer international shipping. Our
                   services are currently available within India. We're
                   continually assessing opportunities to expand our shipping

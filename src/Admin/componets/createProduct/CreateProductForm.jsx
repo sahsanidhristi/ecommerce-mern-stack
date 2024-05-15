@@ -230,7 +230,7 @@ const jwt=localStorage.getItem("jwt")
                 <MenuItem value="top">Tops</MenuItem>
                 <MenuItem value="women_dress">Dresses</MenuItem>
                 {/* <MenuItem value="t-shirts">T-Shirts</MenuItem> */}
-                <MenuItem value="t-shirts-clothing">T-Shirts</MenuItem>
+                <MenuItem value="t-shirt">T-Shirts</MenuItem>
 
                 <MenuItem value="saree">Saree</MenuItem>
                 <MenuItem value="lengha_choli">Lengha Choli</MenuItem>

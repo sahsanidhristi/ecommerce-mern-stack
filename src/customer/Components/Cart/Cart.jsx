@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getCart } from "../../../Redux/Customers/Cart/Action";
-
+import "../Product/ProductDetails/ProductDetails.css"
 const Cart = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Cart = () => {
         </div>
       </div>
       <div className="px-5 sticky top-0 h-[100vh] mt-5 lg:mt-0 ">
-        <div className="border p-5 bg-white shadow-lg rounded-md">
+        <div className="border p-5 bg-white ">
           <p className="font-bold opacity-60 pb-4">PRICE DETAILS</p>
           <hr />
 
@@ -54,7 +54,7 @@ const Cart = () => {
             </div>
           </div>
 
-          <Button
+          <Button className="checkout-btn"
             onClick={() => navigate("/checkout?step=2")}
             variant="contained"
             type="submit"

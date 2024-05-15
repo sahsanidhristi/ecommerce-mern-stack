@@ -1,11 +1,31 @@
 .company-info,.services-content{
   text-align: justify;
 }
-
+.services-content{
+  color:#545454;
+  font-weight: 400;
+}
 .services-icon{
-  font-size: 1.4rem !important;
-  color: blueviolet;
+  font-size: 25px !important;
+  color: #9155fd;
 
+}
+.service-heading{
+  color:#9155fd;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px  !important;
+  margin-left: -5px !important;
+  text-align: center !important;
+ 
+}
+.faq-question{
+  color:#9155fd;
+  font-size:20px;
+}
+.faq-content,.company-info{
+  color:#545454; font-weight: 400;
+ 
 }
 
 /* .teamimg{

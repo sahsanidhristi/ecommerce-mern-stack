@@ -11,3 +11,11 @@ gap:20px;
     height:100%;
     width:100%;
 } */
+.register-btn, .login-btn{
+    background-color: #9155FD!important;
+    border-radius:20px !important;
+    width:100%;
+}
+.link-url{
+    color: #9155FD!important; margin-left: 5px;;
+}

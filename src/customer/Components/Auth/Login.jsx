@@ -67,7 +67,7 @@ export default function LoginUserForm({ handleNext }) {
 
           <Grid item xs={12}>
             <Button
-              className="bg-[#9155FD] w-full"
+              className="login-btn"
               type="submit"
               variant="contained"
               size="large"
@@ -81,7 +81,7 @@ export default function LoginUserForm({ handleNext }) {
       <div className="flex justify-center flex-col items-center">
          <div className="py-3 flex items-center">
         <p className="m-0 p-0">don't have account ?</p>
-        <Button onClick={()=> navigate("/register")} className="ml-5" size="small">
+        <Button onClick={()=> navigate("/register")} className="link-url" size="small">
           Register
         </Button>
         </div>

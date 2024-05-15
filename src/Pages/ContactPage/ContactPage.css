@@ -12,13 +12,16 @@
         flex-basis: 48%;
         /* color: #676767; */
     }
-    .contact-col h3{
-        color:#9155fd;
+    .Contact-us-heading{
+        font-weight: 700;
+      
+        text-transform: uppercase;
+        color: #0050A0;
         font-size: 25px;
         font-weight: 500;
         display: flex;
         align-items: center;
-        text-transform: capitalize;
+     
         margin-bottom: 20px;
     }
     
@@ -26,9 +29,10 @@
         width:35px;
         margin-left: 10px;
     }
-    .contact-col p {
+    .contact-content {
         font-size: 15px;
-        color: black !important;
+        color:#545454;
+        font-weight: 500;
         max-width: 700px;
         width: 600px;
         text-align: justify;
@@ -37,7 +41,8 @@
     .contact-col ul li {
         display: flex;
         align-items: center;
-        color: black !important;
+        color: #545454 !important;
+        font-weight: 500;
         margin: 20px auto;
     }
     .contact-col ul li img{
@@ -60,7 +65,7 @@
     .btn.dark-btn {
         width: 100%;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 20px;
         text-transform: uppercase;
         background-color: #9155FD;
         color: #ffffff;
@@ -69,7 +74,8 @@
     .btn.dark-btn:hover{
         width: 100%;
         cursor: pointer;text-transform: uppercase;
-        background-color: rgba(101,59,177,1);
+        background-color:#9155FD;
         color: #ffffff;
-        border-radius: 5px;
+        border-radius: 20px;
     }
+   
